@@ -24,9 +24,10 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 # Add custom theme
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/lean/luci-theme-opentopd
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
-git clone https://github.com/Aslin-Ameng/luci-theme-Night.git package/lean/luci-theme-Night
 git clone https://github.com/sypopo/luci-theme-argon-mc.git package/lean/luci-theme-argon-mc
+git clone https://github.com/Aslin-Ameng/luci-theme-Night.git package/lean/luci-theme-Night
 git clone https://github.com/Aslin-Ameng/luci-theme-Light.git package/lean/luci-theme-Light
 
 
