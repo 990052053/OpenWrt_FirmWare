@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt ssr_passwall
+name: OpenWrt
 
 on:
   repository_dispatch:
