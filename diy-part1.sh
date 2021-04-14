@@ -26,10 +26,7 @@ rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 git clone https://github.com/Aslin-Ameng/luci-theme-Night.git package/lean/luci-theme-Night
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/sypopo/luci-theme-argon-mc.git package/lean/luci-theme-argon-mc
 git clone https://github.com/Aslin-Ameng/luci-theme-Light.git package/lean/luci-theme-Light
-git clone https://github.com/aboutboy/luci-theme-butongwifi.git package/lean/luci-theme-butongwifi
-#git clone https://github.com/toss-a/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
-#git clone https://github.com/LuttyYang/luci-theme-material.git package/lean/luci-theme-material
-#git clone https://github.com/tano-systems/luci-theme-tano.git package/lean/luci-theme-tano
+
+
