@@ -11,11 +11,12 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add custom feeds source into feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+sed -i '$a src-git fw876 https://github.com/fw876/helloworld' feeds.conf.default
 
 # Clone custom feeds source
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb #git lua-maxminddb 依赖
